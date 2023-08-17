@@ -9,7 +9,7 @@ local function uuid()
     end)
 end
 
-while i < 10 then
+while i < 10 do
   i = i + 1
   print(uuid())
 end
