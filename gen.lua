@@ -20,8 +20,6 @@ discord = read()
 term.write("Enter business name: ")
 business = read()
 
-printer.setTitle("Business Card")
-
 printer.newPage()
 printer.write("Business ID")
 printer.setCursorPos(1,2)
